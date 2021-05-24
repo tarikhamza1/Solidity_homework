@@ -1,4 +1,14 @@
 # Solidity_homework
+![1_4d95vqhJXX9dod-Snz464Q](https://user-images.githubusercontent.com/74984280/119413164-190b2880-bcbb-11eb-87fc-3476481de142.jpeg)
+
+Level One is an AssociateProfitSplitter contract. This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently.
+
+
+Level Two is a TieredProfitSplitter that will distribute different percentages of incoming Ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%.
+
+
+
+
 For this homework - I have decided to submit the first 2 contracts, Associate profit splitter & tiered profit splitter. You can find in this repository the .sol files, the screenshots, as well as the artifacts and transaction confirmation from Remix IDE.
 
 # Associate Profit Splitter
