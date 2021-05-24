@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_one",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_two",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_three",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"20-Solidity/TieredProfitSplitter.sol": "TieredProfitSplitter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"20-Solidity/TieredProfitSplitter.sol": {
+			"keccak256": "0x3edb024a762dd2cafd51cfef46ce07ce327f924a4db17b0138b1f41e4d93235c",
+			"urls": [
+				"bzz-raw://4d0feac94dbaef7d09c3d69aacc4387024a852eb3d7f54eee23e08477dc5fb9d",
+				"dweb:/ipfs/QmUxGp5BSx9LXzUqARRspDDStuhmuszmskfkPxDr8YCdP6"
+			]
+		}
+	},
+	"version": 1
+}
